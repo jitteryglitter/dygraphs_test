@@ -1,12 +1,17 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <object type="" width="900" height="600" data="data/test_svg_plot.svg">
-
-    </object>
-  </body>
+<html>
+<head>
+<script type="text/javascript" src="scripts/dygraph.js"></script>
+<link rel="stylesheet" src="css/dygraph.css" />
+</head>
+<body>
+<div id="graphdiv2"
+  style="width:500px; height:300px;"></div>
+<script type="text/javascript">
+  g2 = new Dygraph(
+    document.getElementById("graphdiv2"),
+    "https://github.com/jitteryglitter/dygraphs_test/blob/main/graph_samples/df_chhs_cases.csv", // path to CSV file
+    {}          // options
+  );
+</script>
+</body>
 </html>
