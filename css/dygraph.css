@@ -4,7 +4,7 @@
 
 .dygraph-legend {
   position: absolute;
-  font-size: 14px;
+  font-size: 10px;
   z-index: 10;
   width: 250px;  /* labelsDivWidth */
   /*
@@ -13,7 +13,7 @@
   top: 0px;
   right: 2px;
   */
-  background: white;
+  background: red;
   line-height: normal;
   text-align: left;
   overflow: hidden;
