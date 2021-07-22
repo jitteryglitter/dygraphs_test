@@ -5,14 +5,14 @@
 </head>
 <body>
 <div id="graphdiv2"
-  style="width:500px; height:300px;"></div>
+  style="width:90%; height:90%;"></div>
 <script type="text/javascript">
   g2 = new Dygraph(
     document.getElementById("graphdiv2"),
-    "graph_samples/df_chhs_cases.csv", // path to CSV file
+    "https://raw.githubusercontent.com/jitteryglitter/dygraphs_test/main/graph_samples/df_chhs_cases.csv", // path to CSV file
     {
       legend: 'always',
-      title: 'Covid cases in select CA counties',
+      title: 'Covid cases in select CA counties (source: CDC)',
       showRoller: true,
       ylabel: 'Case Counts',
       showRangeSelector: true
