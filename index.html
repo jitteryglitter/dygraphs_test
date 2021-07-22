@@ -10,7 +10,12 @@
   g2 = new Dygraph(
     document.getElementById("graphdiv2"),
     "graph_samples/df_chhs_cases.csv", // path to CSV file
-    {}          // options
+    {
+      legend: 'always',
+      title: 'Covid cases in select CA counties',
+      showRoller: true,
+      ylabel: 'Case Count'
+    }          // options
   );
 </script>
 </body>
